@@ -9,7 +9,7 @@ img {
 }
 
 
-.container {
+.container {  /* allineamento intero doc */
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -27,7 +27,7 @@ li{
     display: flex;
 }
 
-.row.head{
+.row.header{
     padding: 5px;
     min-height: 40px;
     background-color: #DAA520;
@@ -40,8 +40,11 @@ li{
     display: flex;
     justify-content: flex-end;
 }
-.col .login >button{
-
+.col.login >button{
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .debug header{
@@ -53,3 +56,22 @@ li{
 .row.head .col{
     flex-basis: calc(100% / 4);
 }
+
+
+.debug main{
+    min-height: 400px;
+    background-color:#00008B;
+    padding: 20px;
+}
+
+.row.jumbo{
+    justify-content: center;
+
+}
+.col-jumbo{
+    border: 2px dashed black;
+    min-width: 400px;
+    min-height: 300px;
+    background-color: #EE82EE;
+}
+
