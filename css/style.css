@@ -10,7 +10,7 @@ img {
 
 
 .container {  /* allineamento intero doc */
-	max-width: 900px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -76,10 +76,12 @@ li{
 }
 .image{
     min-height: 500px ;
-    background-color: yellow;
+
     border: 1px solid black;
 }
-
+.color{
+    background-color: #D3D3D3;
+}
 .row.intro{
     height: 500px;
     justify-content: center;
@@ -107,4 +109,32 @@ li{
     height: 500px;
     justify-content: center;
     align-items: center;
+}
+
+.row-footer{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 700px;
+
+
+}
+.column-footer{
+    height: 200px;
+    min-width:calc(100% / 12);
+    background-color: #20B2AA;
+    border: 1px dotted white;
+
+}
+
+footer{
+    background-color: rgb(54, 53, 53);
+}
+
+.column-footer.big{
+    background-color: red;
+    flex-basis: calc(100% / 6);
+
+
 }
