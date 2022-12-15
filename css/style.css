@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;800&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -23,15 +24,19 @@ li{
     list-style-type: none;
 }
 
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 .row{
     display: flex;
 }
 
+.ul-header>li{
+    padding: 12px;
+}
 .row.header{
+    color: white;
     padding: 5px;
-    min-height: 40px;
-    background-color: #DAA520;
-    border: 2px dashed black;
     justify-content: space-between;
     align-items: center;
 }
@@ -41,16 +46,18 @@ li{
     justify-content: flex-end;
 }
 .col.login >button{
-    border-radius: 10px;
-    width: 100px;
+    line-height: 25px;
+    border-radius: 20px;
+    width: 80px;
     text-align: center;
     cursor: pointer;
+    font-size: 14px ;
+    border: none;
 }
 
 .debug header{
-    min-height: 80px;
-    background-color:#ADD8E6;
-    padding: 20px;
+    background-color:#2D63EB;
+    padding: 15px;
 }
 
 .row.head .col{
